@@ -8,3 +8,13 @@ To this purpose, I fitted an ordinal logistic regression model to a dataset of 1
 Results are surprising, as much of variability may actually be explained by visible regressors.
 
 To further test this assumption, it may be useful to test the fit on new datasets and check the predicting power of the model.
+
+### How was the model fitted
+- Loaded the dataset
+- Fitted full model with relevant interactions
+- Reduced manually the model by commenting at each step each choice, based both on statistical significance but also practical significance
+- Tested model assumptions
+- Compared to multinomial model
+
+### Contributors guideline
+Contributions may be useful in the field of further checking model assumptions and working on some open aspects already in the code.
